@@ -1,0 +1,13 @@
+netty server --> support for reactive program 
+tomcat --> does not support reactive program 
+=======================================
+reactive program work on publicer and subscriber concept
+reactive programing know as non blocking and assynchronize
+==============
+Mono<Any type >---> having 0 and 1 subscriber so here we can get 
+  1)one data and two data
+Flux<Any type >--->  having 0 and n subscriber so here we can get
+ 1) one data and n data 
+   so it will calll next to emit every data 
+    example five data are here so it will call 
+     5 next method internaly to emit data 

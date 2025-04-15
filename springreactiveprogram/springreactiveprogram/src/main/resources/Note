@@ -1,0 +1,20 @@
+in repositry if we want to create any method then this is way 
+     Flux<Product> findByDescription(String desc);-->here description is entaty member so we mention D in camel case 
+     if we have price then we can write in repo 
+     Flux<Product> findByPrice(int price );
+     
+     ==================
+     recative program means its non blocking and assynchronize program 
+     -->here main thread doesnot wait for response 
+     reactive program work on publicer and sebscriber 
+     Mono<Any type >----> it can return 0 and 1 data so it internally call one and two time next method 
+     Flux<Any type >---> it can return 0 or N data so it internally call one and N time data next method to get data 
+     ======================================================================
+     Project Reactor is a fully non-blocking reactive programming foundation for the JVM. It provides two main types:
+
+Mono<T> – Emits 0 or 1 item.
+
+Flux<T> – Emits 0 to N items (a stream of data).
+
+========================================================
+Reactive application can not run on appachi tomcat--netty is run on netty server  
